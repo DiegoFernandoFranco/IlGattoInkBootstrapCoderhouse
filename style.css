@@ -1,26 +1,22 @@
 .container-fluid h1 {
     text-align: center;
-
-
 }
 
 html {
-    scroll-padding-top: 110px; /* height of sticky header */
-  }
-/* .container {
-    justify-content: center;
-} */
-
-body {
+    scroll-padding-top: 110px; /* Altura del Sticky Header */
+}
+  
+.todo {
     margin-top: 100px;
 }
-.conte {
+.contenido {
     text-align: center;
     padding: 30px 50px;
 }
-/* .contfoo {
-    background-color: rgb(61, 58, 58);
-} */
+.contenido p {
+    text-align:justify;
+    /* padding: 30px 50px; */
+}
 
 .escobar-img {
     width: 534px ;
@@ -41,3 +37,5 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+ /* Footer */
