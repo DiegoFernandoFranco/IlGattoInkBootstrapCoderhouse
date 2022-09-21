@@ -1,0 +1,97 @@
+.container-fluid h1 {
+    text-align: center;
+}
+
+html {
+    scroll-padding-top: 110px; /* Es Necesario este padding por el menu fijo, sino la pagina continua debajo del navbar */
+}
+  
+.todo {
+    margin-top: 100px;
+}
+.nav-color {    
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(146, 147, 153, 0.597) 0%, rgba(244,244,246,1) 47%, rgba(146, 147, 153, 0.597) 100%);
+}
+.contenido {
+    text-align: center;
+    padding: 30px 50px;
+}
+.contenido p {
+    text-align:justify;
+    padding: 30px 50px;
+}
+
+.video-parent {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+
+}
+.escobar-video {
+    width: 400px;
+    text-align: center;
+}
+
+.escobar-imagen{
+    width: 533px;
+    text-align: center;
+}
+
+
+.contacto-acomodar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.siempre-al-top {
+    place-self:end;
+    position:sticky;
+    bottom:160px;
+    margin-left: 90vw;
+    /* right: -80%; */
+    margin-top:150vh;
+
+    /* visual styling */
+    text-decoration: none;
+    /* padding: 10px 10px; */
+    padding-top: 10px;
+    color: black;
+    
+    /* background: #000; */
+    border-radius: 100px;
+  }
+
+  html,
+  body {
+      scroll-behavior: smooth;
+  }
+
+.siempre-al-top span {
+    font-size: 50px;
+}
+
+.siempre-al-top span:hover {
+    color: blue;
+    
+}
+/* Media Query solamente para las imagenes de la pag. personalizadas */
+@media only screen and (max-width: 960px){
+    .video-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .escobar-imagen {
+        width: 316px;
+
+    }
+    .escobar-video{
+        width: 316px;
+        margin-bottom: 20px;
+    }
+
+    .siempre-al-top {
+        margin-left: 80vw;
+    }
+}
