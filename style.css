@@ -3,7 +3,7 @@
 }
 
 html {
-    scroll-padding-top: 1100px; /* Es Necesario este padding por el menu fijo, sino la pagina continua debajo del navbar */
+    scroll-padding-top: 110px; /* Es Necesario este padding por el menu fijo, sino la pagina continua debajo del navbar */
 }
   
 .todo {
